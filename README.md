@@ -2,7 +2,7 @@
 
 Personal portfolio site: cybersecurity projects, experience and resume.
 
-**Live site:** _coming soon_
+**Live site:** https://jerry-0xcybervenom.vercel.app
 
 ## Stack
 
