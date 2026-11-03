@@ -158,6 +158,7 @@ export const PROJECTS = [
   },
   {
     name: 'Deepavali',
+    url: 'https://github.com/CyVenom/deepavali-lights',
     tagline: 'Festival of lights website',
     category: 'web',
     stack: ['HTML', 'CSS', 'JavaScript', 'Web Audio', 'PWA'],
