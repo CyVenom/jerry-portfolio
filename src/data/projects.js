@@ -157,6 +157,16 @@ export const PROJECTS = [
     points: ['Full-stack e-learning platform.'],
   },
   {
+    name: 'Deepavali',
+    tagline: 'Festival of lights website',
+    category: 'web',
+    stack: ['HTML', 'CSS', 'JavaScript', 'Web Audio', 'PWA'],
+    points: [
+      'Interactive Deepavali site: light five diyas to trigger fireworks with synthesized Web Audio sound, a live countdown, a rangoli painter and a diya maker.',
+      'Quiz and memory game, plus downloadable greeting cards in English, Tamil, Hindi and Telugu. Installable offline as a PWA with a strict content security policy.',
+    ],
+  },
+  {
     name: 'OurDistance',
     tagline: 'Interactive distance map',
     category: 'app',
