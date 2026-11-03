@@ -76,22 +76,6 @@ export const PROJECTS = [
     points: ['Detects and blocks prompt injection and jailbreak attacks in real time, with a live dashboard.'],
   },
   {
-    name: 'CyVen_OctoC2',
-    tagline: 'GitHub-native C2 for authorized research',
-    category: 'security',
-    stack: ['Python'],
-    url: 'https://github.com/CyVenom/CyVen_OctoC2',
-    points: ['Command-and-control framework for authorized security research with encrypted multi-channel transport.'],
-  },
-  {
-    name: 'CyVen_LivingOfTheLand',
-    tagline: 'Linux/Unix privilege escalation enumeration',
-    category: 'security',
-    stack: ['Shell'],
-    url: 'https://github.com/CyVenom/CyVen_LivingOfTheLand',
-    points: ['Comprehensive privilege escalation enumeration tool for Linux/Unix security assessments.'],
-  },
-  {
     name: 'Waybackurl',
     tagline: 'Recon automation for bug bounty',
     category: 'security',
