@@ -57,8 +57,9 @@ function Arrow() {
   );
 }
 
-function Status({ status, compact }) {
-  const label = status === 'public' ? (compact ? 'Public' : 'Public code') : compact ? 'Private' : 'Private, summary only';
+function Status({ status, compact, hasLive }) {
+  const priv = hasLive ? (compact ? 'Private code' : 'Private code, live preview') : compact ? 'Private' : 'Private, summary only';
+  const label = status === 'public' ? (compact ? 'Public' : 'Public code') : priv;
   return (
     <span className={`status ${status}`}>
       <i aria-hidden="true" />
@@ -86,8 +87,8 @@ function Work({ p, i }) {
         )}
         <p className="stack mono">{p.stack.join(' / ')}</p>
         <div className="work-links">
-          <Status status={p.status} />
-          {p.repo && (
+          <Status status={p.status} hasLive={!!p.live} />
+                    {p.repo && (
             <a href={p.repo} target="_blank" rel="noreferrer">
               Code <Arrow />
             </a>
