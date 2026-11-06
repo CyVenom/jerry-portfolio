@@ -33,6 +33,15 @@ export const PROJECTS = [
     ],
   },
   {
+    name: 'Jerry Adblock',
+    tagline: 'Chrome ad blocker that shows its work (in development)',
+    category: 'app',
+    status: 'private',
+    featured: true,
+    glimpse: 'Manifest V3 extension that blocks ads and trackers with EasyList, EasyPrivacy and HaGeZi rules, and lists exactly which host it stopped and which list caught it. Adds an element picker, per-site pause and a "this site is broken" button.',
+    stack: ['JavaScript', 'Chrome MV3', 'declarativeNetRequest'],
+  },
+  {
     name: 'VenomSec',
     tagline: 'Offensive security automation framework',
     category: 'security',
