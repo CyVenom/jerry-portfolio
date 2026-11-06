@@ -70,3 +70,13 @@ export const ACTIVITIES = [
 ];
 
 export const LANGUAGES = 'English (fluent) | Malay (fluent) | Tamil (fluent)';
+
+// Facts shown in the hero ledger. Every line comes from the sections below.
+export const RECORD = [
+  ['Degree', 'BCS (Hons) Cybersecurity, MMU'],
+  ['CGPA', '3.47'],
+  ['Dean\'s List', 'Three times'],
+  ['Award', 'Best Project Award, Cybersecurity (FCI, 2026)'],
+  ['Experience', '24/7 service operations internship, Logicalis'],
+  ['Languages', 'English, Malay, Tamil'],
+];
