@@ -95,7 +95,7 @@ function Work({ p, i }) {
           )}
           {p.live && (
             <a href={p.live} target="_blank" rel="noreferrer">
-              Live site <Arrow />
+              {p.liveLabel || 'Live site'} <Arrow />
             </a>
           )}
         </div>

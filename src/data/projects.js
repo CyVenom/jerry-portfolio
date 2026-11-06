@@ -26,6 +26,10 @@ export const PROJECTS = [
     status: 'public',
     featured: true,
     repo: GH + 'VulnForge',
+    live: 'https://vulnforge-demo.vercel.app',
+    liveLabel: 'Live demo',
+    shot: '/shots/vulnforge.webp',
+    shotAlt: 'VulnForge demo site: A scanner that checks you are allowed to scan first, with a real scan result showing a risk score of 25',
     stack: ['Python', 'asyncio', 'SQLite', 'nmap'],
     points: [
       'Plugin-extensible scanner running nmap, web, SSL/TLS, DNS and CVE checks in parallel, with risk scoring, false-positive reduction and reports in six formats (HTML, JSON, SARIF, PDF and more).',
