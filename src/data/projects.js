@@ -29,7 +29,7 @@ export const PROJECTS = [
     stack: ['Python', 'asyncio', 'SQLite', 'nmap'],
     points: [
       'Plugin-extensible scanner running nmap, web, SSL/TLS, DNS and CVE checks in parallel, with risk scoring, false-positive reduction and reports in six formats (HTML, JSON, SARIF, PDF and more).',
-      'Offline CVE matching using the NVD API 2.0 and the CISA KEV catalog, a token-authenticated REST API, an authorization-first workflow and a 60-test pytest suite.',
+      'Offline CVE matching using the NVD API 2.0 and the CISA KEV catalog, a token-authenticated REST API, an authorization-first workflow and a 118-test pytest suite.',
     ],
   },
   {
