@@ -64,6 +64,10 @@ export const PROJECTS = [
     status: 'public',
     featured: true,
     repo: GH + 'Reflective_XSS',
+    live: 'https://xsf-site.vercel.app',
+    liveLabel: 'Project site',
+    shot: '/shots/xsf.webp',
+    shotAlt: 'xsf project site: Find reflected XSS before they do, with a terminal showing a confirmed vulnerability',
     stack: ['Python', 'Multithreading'],
     points: [
       'Tests 10,000+ payload variations across multiple web endpoints.',
