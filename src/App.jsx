@@ -206,7 +206,7 @@ export default function App() {
               I build security tools, and I&rsquo;ve worked the <em>alert queue</em>.
             </h1>
             <p className="hero-sub">
-              Final-year Cybersecurity student at MMU. I write vulnerability scanners and security automation, and spent
+              Cybersecurity graduate from MMU. I write vulnerability scanners and security automation, and spent
               a 24/7 service-operations internship monitoring infrastructure, escalating alerts and handling incidents.
             </p>
             <div className="cta">

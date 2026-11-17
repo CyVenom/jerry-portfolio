@@ -7,7 +7,7 @@ export const PROFILE = {
   linkedin: 'https://linkedin.com/in/jerry-jeremiah-rao',
   resume: '/Jerry_Jeremiah_Rao_Resume.pdf',
   summary:
-    'Final-year Cybersecurity student with hands-on experience in cloud and infrastructure operations, IT service management and incident management within a 24/7 service operations environment. Practical knowledge of infrastructure monitoring and security tooling, with self-built projects in vulnerability scanning and security automation. Seeking SOC Analyst or Security Analyst roles in Security Operations and cybersecurity analysis.',
+    'Cybersecurity graduate with hands-on experience in cloud and infrastructure operations, IT service management and incident management within a 24/7 service operations environment. Practical knowledge of infrastructure monitoring and security tooling, with self-built projects in vulnerability scanning and security automation. Seeking SOC Analyst or Security Analyst roles in Security Operations and cybersecurity analysis.',
 };
 
 export const EXPERIENCE = [
