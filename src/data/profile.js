@@ -28,7 +28,7 @@ export const EDUCATION = {
   degree: 'Bachelor of Computer Science (Hons) Cybersecurity',
   school: 'Multimedia University (MMU), Cyberjaya',
   period: 'Nov 2022 - Present',
-  cgpa: '3.47',
+  cgpa: '3.33',
   points: [
     "Dean's List recipient three times",
     'Winner, Best Project Award (Cybersecurity) and Top 10 Finalist, Faculty of Computing & Informatics, Mar/Apr 2026',
@@ -74,7 +74,7 @@ export const LANGUAGES = 'English (fluent) | Malay (fluent) | Tamil (fluent)';
 // Facts shown in the hero ledger. Every line comes from the sections below.
 export const RECORD = [
   ['Degree', 'BCS (Hons) Cybersecurity, MMU'],
-  ['CGPA', '3.47'],
+  ['CGPA', '3.33'],
   ['Dean\'s List', 'Three times'],
   ['Award', 'Best Project Award, Cybersecurity (FCI, 2026)'],
   ['Experience', '24/7 service operations internship, Logicalis'],
