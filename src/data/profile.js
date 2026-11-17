@@ -30,7 +30,7 @@ export const EDUCATION = {
   period: 'Nov 2022 - Present',
   cgpa: '3.33',
   points: [
-    "Dean's List recipient three times",
+    "Dean's List recipient twice",
     'Winner, Best Project Award (Cybersecurity) and Top 10 Finalist, Faculty of Computing & Informatics, Mar/Apr 2026',
     'Final Year Project: Design of a Cybersecurity Risk Assessment Tool for Organisational Systems',
   ],
@@ -75,7 +75,7 @@ export const LANGUAGES = 'English (fluent) | Malay (fluent) | Tamil (fluent)';
 export const RECORD = [
   ['Degree', 'BCS (Hons) Cybersecurity, MMU'],
   ['CGPA', '3.33'],
-  ['Dean\'s List', 'Three times'],
+  ['Dean\'s List', 'Twice'],
   ['Award', 'Best Project Award, Cybersecurity (FCI, 2026)'],
   ['Experience', '24/7 service operations internship, Logicalis'],
   ['Languages', 'English, Malay, Tamil'],
