@@ -75,16 +75,17 @@ export const PROJECTS = [
     ],
   },
   {
-    name: 'Cybersecurity Risk Assessment Tool',
-    tagline: 'Final year project. Best Project Award (Cybersecurity)',
+    name: 'CyberRisk',
+    tagline: 'Automated risk assessment tool. Final year project, Best Project Award (Cybersecurity)',
     category: 'security',
     status: 'private',
     featured: true,
     showPoints: true,
-    stack: ['Final Year Project'],
+    stack: ['Python', 'Flask', 'React', 'TypeScript', 'SQLite'],
     points: [
-      'Design of a cybersecurity risk assessment tool for organisational systems.',
-      'Winner of the Best Project Award (Cybersecurity) and Top 10 Finalist, Faculty of Computing & Informatics, Mar/Apr 2026.',
+      'Orchestrates Nmap, OpenVAS and Nikto in parallel across IP, CIDR and domain targets, consolidating results into a single risk view.',
+      'Context-aware scoring engine based on NIST SP 800-30 and CVSS v3.1 with asset-criticality and exposure multipliers, plus ISO/IEC 27001:2022 compliance reports (PDF, CSV, JSON).',
+      'RBAC and 2FA, backed by a 138-test suite (82 unit, 38 integration, 18 system). Winner of the Best Project Award (Cybersecurity) and Top 10 Finalist, Faculty of Computing & Informatics, Mar/Apr 2026.',
     ],
   },
   {

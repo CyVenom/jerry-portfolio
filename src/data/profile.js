@@ -7,7 +7,7 @@ export const PROFILE = {
   linkedin: 'https://linkedin.com/in/jerry-jeremiah-rao',
   resume: '/Jerry_Jeremiah_Rao_Resume.pdf',
   summary:
-    'Final-year Cybersecurity student with hands-on experience in cloud and infrastructure operations, IT service management and incident management within a 24/7 service operations environment. Practical knowledge of infrastructure monitoring and security tooling, with self-built projects in vulnerability scanning and security automation. Seeking opportunities in Security Operations and cybersecurity analysis.',
+    'Final-year Cybersecurity student with hands-on experience in cloud and infrastructure operations, IT service management and incident management within a 24/7 service operations environment. Practical knowledge of infrastructure monitoring and security tooling, with self-built projects in vulnerability scanning and security automation. Seeking SOC Analyst or Security Analyst roles in Security Operations and cybersecurity analysis.',
 };
 
 export const EXPERIENCE = [
@@ -37,16 +37,16 @@ export const EDUCATION = {
 };
 
 export const SKILLS = [
-  ['Languages', 'Python, Bash, Go, C++, JavaScript, PHP, SQL'],
-  ['Security tools', 'Burp Suite, Nmap, Nuclei, SQLMap, Wireshark, Subfinder, HTTPX, Kali Linux'],
-  ['Security domains', 'Web application security, vulnerability assessment, reconnaissance automation, API security testing'],
+  ['Languages', 'Python, Bash, Go, C++, JavaScript, TypeScript, PHP, SQL'],
+  ['Security tools', 'Burp Suite, Nmap, OpenVAS, Nikto, Nuclei, SQLMap, Wireshark, Subfinder, HTTPX, Kali Linux'],
+  ['Security domains', 'Web application security, vulnerability assessment, risk assessment (NIST SP 800-30, CVSS v3.1), ISO/IEC 27001, reconnaissance automation, API security testing'],
   ['Cloud & IT ops', 'Azure Portal (VM management), PowerShell, ServiceNow, LogicMonitor, ITIL'],
   ['Frameworks & platforms', 'Django, Flask, React.js, Docker, REST APIs, Git'],
   ['Databases', 'MySQL, SQLite, SQL Server, DB2'],
 ];
 
 export const CERTIFICATIONS = [
-  'CompTIA Security+ and CySA+ Assessments (Coursera course assessments)',
+  'Coursera course assessments covering CompTIA Security+ and CySA+ topics (not the certification exams)',
   'IBM: Introduction to Cybersecurity, Computer Networks & Network Security, Operating Systems Security',
   'AWS Academy Cloud Foundations; Cisco: Introduction to Cybersecurity',
 ];
@@ -61,11 +61,6 @@ export const ACTIVITIES = [
     title: 'Participant, Ethical Hacking Workshop, IT Society MMU',
     when: 'Sep 2024',
     text: 'Hands-on training covering XSS detection, port scanning, Burp Suite workflows and OWASP Top 10 exploitation techniques.',
-  },
-  {
-    title: 'Participant, Barcamp MMU',
-    when: 'Dec 2023',
-    text: 'Networked with security professionals and discussed CVEs, ethical hacking tools and attack techniques.',
   },
 ];
 
